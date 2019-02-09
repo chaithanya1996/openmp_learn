@@ -1,0 +1,2 @@
+# Writing Open MP Program
+

@@ -18,12 +18,12 @@ In order to achieve their breakneck speed, today’s computer systems are highly
 
 
 - OpenMP
- Automatic parallelization: Many compilers provide a flag, or option, for automatic program parallelization. When this is selected, the compiler analyzes the program, searching for independent sets of instructions
+  - Automatic parallelization: Many compilers provide a flag, or option, for automatic program parallelization. When this is selected, the compiler analyzes the program, searching for independent sets of instructions
 - MPI
   - The Message Passing Interface [137] was developed to facilitate portable programming for distributed-memory architectures (MPPs), where multiple pro- cesses execute independently and communicate data as needed by exchanging mes- sages.
 
 -Pthreads
- It realizes the shared-memory programming model via a collection of routines for creating, managing and coordinating a col- lection of threads. Thus, like MPI, it is a library.
+	- It realizes the shared-memory programming model via a collection of routines for creating, managing and coordinating a col- lection of threads. Thus, like MPI, it is a library.
  
  
 ## Program For Dot Product In different Paradrigms
